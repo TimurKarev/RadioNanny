@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Радионяня</string>
+    <string name="action_settings">Установки</string>
+    <string name="def_telnum">+79216308858</string>
+    <string name="stop">Остановить Няню</string>
+    <string name="start">Включить Няню</string>
+    
+    <string name="text_master_phone">Главный телефон</string>
+    <string name="text_get">+</string>
+    <string name="text_extra_phone">Дополнительный телефон</string>
+  
+    <string name="text_need_main_phone">Необходимо ввести телефон !!!</string>
+  
+    <string name="txt_loud_volume">Уровень шума</string>
+  
+    <string name="txt_starting_nana_timer">"Слежение начнется через: "</string>
+  
+    <string name="txt_log_on">Журнал</string>
+  
+    <string name="txt_call_if_loud">Позвонить при шуме</string>
+  
+    <string name="txt_recall_to_number">Перезвонить на номер</string>
+  
+    <string name="txt_sms_low_batt">СМС о низкомзаряде баттареи</string>
+  
+    <string name="txt_sms_missed_call">СМС о пропущенных звонках</string>
+  
+    <string name="txt_log_on_long"> Сохранять все события во время слежения </string>
+        
+    <string name="LOUD_PICKER">LOUD_PICKER</string>
+        
+    <string name="txt_jousnal">Журнал</string>
+        
+    <string name="txt_start">Начать</string>
+        
+    <string name="txt_settings">Настройки</string>
+        
+    <string name="txt_help">Помощь</string>
+        
+    <string name="txt_journal">Журнал</string>
+        
+    <string name="txt_pause_before_start">пауз перед включением</string>
+        
+    <string name="txt_low_sensity">Низкая чувствительность</string>
+        
+    <string name="txt_middle_sensity">Средняя чувствительность</string>
+        
+    <string name="txt_hi_sensity">Высокая чувствительность</string>
+    <string name="txt_nana_starting">Няня стартует через:</string>
+    <string name="txt_nana_working">Няня работает</string>
+    <string name="txt_start_pause">Пауза перед стартом</string>
+    <string name="sms_battery_low">Nana phone battery low</string>
+    <string name="journal_name_stop_recording">Конец записи</string>
+    <string name="journal_descr_stop_recording">В комнате тихо</string>
+    <string name="journal_name_start_recording">Запись</string>
+    <string name="journal_descr_start_recording">Превышен уровень шума</string>    
+    <string name="journal_name_stop_nana">Няня стоп</string>
+    <string name="journal_descr_stop_nana">Няня больше следит</string>
+    <string name="journal_name_start_nana">Няня старт</string>
+    <string name="journal_descr_start_nana">Няня начала работу</string>    
+    
+    
+        
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+        <TextView
+            android:id="@+id/staring_fragment_textView_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="5dp"
+            android:clickable="true"
+            android:onClick="toSensitySettings"
+            android:text="@string/txt_loud_volume"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="toSensitySettings"
+            android:layout_weight="1"
+            android:paddingBottom="10dp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="5"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+  	        <LinearLayout
+  	            android:layout_width="match_parent"
+  	            android:layout_height="wrap_content"
+  	            android:gravity="center"
+  	            android:orientation="horizontal"
+  	            android:padding="5dp"
+  	            android:weightSum="0" >
+            
+            <CheckBox
+                android:id="@+id/starting_fragment_check_box0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scaleX="1.52"
+                android:scaleY="1.52" />
+          
+            <TextView
+                android:id="@+id/starting_fragment_textView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="80"
+                android:clickable="true"
+                android:onClick="toJournalSettings"
+                android:text="@string/txt_log_on"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+          
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="0" >
+            
+            <CheckBox
+                android:id="@+id/starting_fragment_check_box1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scaleX="1.52"
+                android:scaleY="1.52" />
+          
+            <TextView
+                android:id="@+id/starting_fragment_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="80"
+                android:clickable="true"
+                android:onClick="toLoudSettings"
+                android:text="@string/txt_call_if_loud"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+          
+
+        </LinearLayout>
+ <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="0" >
+            
+            <CheckBox
+                android:id="@+id/starting_fragment_check_box2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scaleX="1.52"
+                android:scaleY="1.52" />
+          
+            <TextView
+                android:id="@+id/starting_fragment_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="80"
+                android:clickable="true"
+                android:onClick="toRecallSettings"
+                android:text="@string/txt_recall_to_number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+          
+
+        </LinearLayout>          
+        
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="0" >
+            
+            <CheckBox
+                android:id="@+id/starting_fragment_check_box3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scaleX="1.52"
+                android:scaleY="1.52" />
+          
+            <TextView
+                android:id="@+id/starting_fragment_textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="80"
+                android:clickable="true"
+                android:onClick="toSMSLowSettings"
+                android:text="@string/txt_sms_low_batt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+          
+
+        </LinearLayout>
+ <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="0" >
+            
+            <CheckBox
+                android:id="@+id/starting_fragment_check_box4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scaleX="1.52"
+                android:scaleY="1.52" />
+          
+            <TextView
+                android:id="@+id/starting_fragment_textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="80"
+                android:clickable="true"
+                android:onClick="toSMSMisSettings"
+                android:text="@string/txt_sms_missed_call"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+            
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/starting_textView_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="10dp"
+                android:clickable="true"
+                android:onClick="toStartPauseSettings"
+                android:text="Пауза перед стартом"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/starting_textView_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="toStartPauseSettings"
+                android:text="00:00:05"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/starting_fragment_imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:clickable="true"
+                android:src="@drawable/on_button" />
+
+</LinearLayout>

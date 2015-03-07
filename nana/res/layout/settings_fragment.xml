@@ -1,0 +1,145 @@
+      
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_main_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:onClick="toLoudSettings"
+                android:text="Кому звонить" />
+
+            <TextView
+                android:id="@+id/set_textView_main_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_pause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="toStartPauseSettings"
+                android:text="Пауза перед слежением" />
+            
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal" >
+		            
+		            <TextView
+		                android:id="@+id/set_textView_pause"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="Пауза = "
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+		            <TextView
+                        android:id="@+id/set_textView_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Пауза = "
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+		            
+		            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_fragment_button_senc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="toSensitySettings"
+                android:text="Чувствительность няни" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_fragment_button_extra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="toRecallSettings"
+                android:layout_gravity="center"
+                android:text="Добавить слушателя" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_fragment_button_sms_low"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="toSMSLowSettings"
+                android:layout_gravity="center"
+                android:text="CMC о низком заряде батареи" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_fragment_button_sms_mis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="toSMSMisSettings"
+                android:text="CMC о пропущенных звонках" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/set_fragment_button_journal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt_jousnal" />
+
+        </LinearLayout>
+
+    </LinearLayout>

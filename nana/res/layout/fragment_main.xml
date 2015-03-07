@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="timur.karev.radionana.MainActivity$MainFragment"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="Start" />
+ 
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/text_master_phone" />
+       
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:editable="false"
+            android:ems="10"
+            android:textSize="22sp"
+            android:inputType="phone"
+            android:text="@string/def_telnum" >
+
+        </TextView>
+ 
+    <Button
+        android:id="@+id/buttonGetMasterPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_get" />
+
+        
+    </TableRow>
+    </TableLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/text_extra_phone"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0"
+            >
+        
+    <TableRow >
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:ems="10"
+            android:textSize="22sp"
+            android:inputType="phone"
+            android:text="" >
+
+        </TextView>
+
+        <Button
+            android:id="@+id/buttonGetExtraPhone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_get" />
+        
+    </TableRow>
+    
+    </TableLayout>
+
+  
+
+</LinearLayout>
+</ScrollView>

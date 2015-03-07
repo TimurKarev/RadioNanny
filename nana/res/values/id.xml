@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="PICK_MASTER_CONTACT">1</integer>
+    <integer name="PICK_EXTRA_CONTACT">2</integer>
+    <integer name="PICK_SMS_LOW_CONTACT">3</integer>
+    <integer name="PICK_SMS_MIS_CONTACT">4</integer>
+
+    <integer name="MAX_VOLUME">32000</integer>
+</resources>
